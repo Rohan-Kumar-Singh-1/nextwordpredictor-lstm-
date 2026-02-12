@@ -10,11 +10,11 @@ Model Architecture
 * **LSTM Layer**: Processes the sequence (150 hidden units) to capture context.
 * **Fully Connected Layer**: Maps the output to the total vocabulary size for prediction.
 
- How to Run
+How to Run
 1. Open the `NextWordPredictor.ipynb` file in **Google Colab**.
 2. Run all cells to train the model on the provided dataset.
 3. Use the `predict_next_words` function at the bottom to test your own sentences.
 
-## 📊 Sample Output
+Sample Output
 * Input: "Machine learning is" 
 * Predicted: "a subset of artificial intelligence"
